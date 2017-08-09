@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 //						sharedElement,//共享元素---哪一个View
 //						sharedElementName)//共享元素的名称 android:transitionName="iv_meinv3"
 
-		ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this, iv1, "iv_meinv3");
+		ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this, iv1, "yangmi");
 		Intent intent = new Intent(this, SecondActivity.class);
 		startActivity(intent, optionsCompat.toBundle());
 

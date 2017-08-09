@@ -6,6 +6,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -16,21 +17,19 @@
         app:titleTextColor="#ff0" />
 
     <Button
+        android:id="@+id/bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:onClick="back"
-        android:text="我是SecondActivity"
+        android:onClick="jump"
+        android:text="我是MainActivity，点我跳转"
         android:transitionName="bt" />
 
     <ImageView
         android:id="@+id/iv1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/meinv3"
-        android:transitionName="iv_meinv3" />
-
+        android:src="@drawable/yangmi"
+        android:transitionName="yangmi" />
 
 </LinearLayout>
